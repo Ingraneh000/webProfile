@@ -1,0 +1,9 @@
+<script>
+        prompt("Hello! How are you?")
+        prompt("What do you think this website will be about?")
+        alert("This is a website about videogames. More specifically about the biggest ones that help the gaming industry become what it is today!")
+        alert("There will be a page about how gaming as a whole started and then other webpages will be about more specific franchises. Hope you enjoy it!")
+        alert("One more thing if you hold the images they will turn inverted! :]")
+</script>
+
+target="_blank" for the tabs

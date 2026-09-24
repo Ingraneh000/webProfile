@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" id="sonic">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="javascript.js" defer></script>
+</head>
+<body class="sonic-content">
+    <script>
+        alert("Hey! I see you came to the Sonic section. Warning if you can't see the text well just hover over the text and a background will come to make it better. Here you'll learn more about Sonic The Hedgehog! Near the end you'll get to see the classic games they have started the Sonic franchise")
+    </script>
+    <header>
+        <h1 class="sonic-banner">The History of Sonic The Hedgehog and his impact on gaming</h1>
+    </header>
+    <main>
+        <img class="sonic-image" src="https://www.pngall.com/wp-content/uploads/13/Sonic.png">
+        <!--I got this information from the wikipedia-->
+        <p class="sonic-information">Sonic the Hedgehog is a video game series and media franchise created by the Japanese developers Yuji Naka, Naoto Ohshima, and Hirokazu Yasuhara for Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog with supersonic speed, who battles the mad scientist Doctor Eggman and his robot army. The main Sonic the Hedgehog games are platformers mostly developed by Sonic Team; other games, developed by various studios, include spin-offs in the racing, fighting, party and sports genres. The franchise also incorporates printed media, animations, films, and merchandise.</p>
+        <br>
+        <p class="sonic-information">Sonic's first appearance came in Sega AM3's racing game Rad Mobile (1991) five months before the release of Sonic the Hedgehog, as an ornament hanging from the driver's rearview mirror. The Sonic developers let AM3 use Sonic because they were interested in making him visible to the public. According to Mark Cerny, who worked in Tokyo as an intermediary between the Japanese and American Sega offices, the American staff felt that Sonic had no appeal. Although Katz was certain that Sonic would not be popular with American children, Kalinske arranged to place Sonic the Hedgehog as the pack-in game with the Genesis. Featuring speedy gameplay, Sonic the Hedgehog received critical acclaim. It greatly increased the popularity of the Sega Genesis in North America, credited with helping Sega gain 65% of the market share against Nintendo.</p>
+    </main>
+    <hr>
+</body>
+<h1 class="sonic-game">Classic Sonic games</h1>
+<div id="classic-list">
+    <script>
+    var classicGames = ["Sonic 1", "Sonic 2", "Sonic 3", "Sonic CD"];
+    //I got advice to get this list from ChatGPT as I had the script tag and the variable and function and the ul I only needed the li
+    document.getElementById("classic-list").innerHTML =
+    //Here
+    "<ul>" +
+        "<li>Sonic 1</li>" +
+        "<li>Sonic 2</li>" +
+        "<li>Sonic 3</li>" +
+        "<li>Sonic CD</li>" +
+    "</ul>";
+    //Here
+</script>
+</div>
+<hr>
+<footer>
+        <p class="sonic-information">If you ever need more information you can always look at the wikipedia page.</p>
+        <iframe src="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog" height="700px" width="500px"></iframe>
+        <hr>
+        <a class="link" href="index.html">
+            <h3>Return to Homepage</h3>
+        </a>
+    </footer>
+</html>

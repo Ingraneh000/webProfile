@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" id="mario">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="javascript.js" defer></script>
+</head>
+<body class="mario-content">
+    <script>
+        alert("Hey! I see you came to the Mario section. Here you'll learn more about Mario!")
+        alert("For this game which are the boxes below you need to associate the boxes with the character color. 1st box = Mario (red), 2nd = Luigi (green), 3rd = Peach (pink), 4th = Bowser (yellow), 5th = Toad( white). Enjoy!")
+    </script>
+    <header>
+        <h1 class="mario-banner">The History of Mario and his impact of gaming</h1>
+    </header>
+    <main>
+        <img class="mario-picture" src="https://upload.wikimedia.org/wikipedia/en/5/5c/Mario_by_Shigehisa_Nakaue.png">
+        <!--I got this information from the wikipedia-->
+        <p class="mario-information">Mario is a character created by Japanese video game designer Shigeru Miyamoto. He is the star of the Mario franchise, a recurring character in the Donkey Kong franchise, and the mascot of their owner, the Japanese company Nintendo. Mario is an Italian-American plumber who lives in the Mushroom Kingdom with his younger twin brother, Luigi. Their adventures generally involve rescuing Princess Peach from the villain Bowser while using power-ups that give them different abilities. Mario is distinguished by his large nose and mustache, overalls, red cap, and high-pitched, exaggerated Italian accent.</p>
+        <br>
+        <p class="mario-information">Mario's impact on gaming includes revitalizing the console market after the 1983 crash, popularizing the side-scrolling platformer genre, and defining the 3D platformer genre. He introduced foundational gameplay mechanics like power-ups, intuitive controls, and responsive movement that became industry standards. Furthermore, Mario's success created the model for a successful and versatile gaming franchise that could span multiple genres and platforms.</p>
+    </main>
+    <hr>
+    <!--Asked ChatGPT for advice on how to make the blocks side by side in css on the square column-->
+    <h1 class="mario-game">Mario's box game</h1>
+    <div class="square" onclick="changeColor(this)"></div>
+	<div class="square" onclick="changeColor(this)"></div>
+    <div class="square" onclick="changeColor(this)"></div>
+	<div class="square" onclick="changeColor(this)"></div>
+    <div class="square" onclick="changeColor(this)"></div>
+
+		<script>
+		    function changeColor(element) {
+		        var color = prompt("Enter a color:");
+		        if (color) {
+		            element.style.backgroundColor = color;
+		        }
+		    }
+		</script>
+</body>
+<hr>
+<footer>
+        <p class="mario-information">If you ever need more information you can always look at the wikipedia page.</p>
+        <iframe src="https://en.wikipedia.org/wiki/Mario" height="700px" width="500px"></iframe>
+        <hr>
+        <a class="link" href="index.html">
+            <h3>Return to Homepage</h3>
+        </a>
+    </footer>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" id="pokemon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="javascript.js" defer></script>
+</head>
+<body class="pokemon-content">
+    <script>
+        alert("Welcome to the Pokémon section where you find Pokémon's history and their series impact! Especially for a big game series like this!")
+    </script>
+    <header>
+        <h1 class="pokémon-banner">The History of The Pokémon and thier impact on gaming</h1>
+    </header>
+    <main>
+        <img class="pokemon-image" src="https://www.pngmart.com/files/22/Pikachu-Pokemon-PNG-HD-Isolated.png">
+        <!--I got this information from the wikipedia-->
+        <p class="pokemon-information">Pokémon is a Japanese media franchise consisting of video games, animated series and films, a trading card game, and other related media. The franchise takes place in a shared universe in which humans co-exist with creatures known as Pokémon, a large variety of species endowed with special powers. The franchise's primary target audience is children aged 5 to 12, but it is known to attract people of all ages. Pokémon is estimated to be the world's highest-grossing media franchise and is one of the best-selling video game franchises.</p>
+        <br>
+        <p class="pokemon-information">In the field of video games, the main Pokémon series became the paradigm of the monster-taming game. While not the first to use this concept, the Pokémon games became so synonymous with it that later titles involving catching and training monsters, RPGs or not, were inevitably compared to Pokémon. Examples of this include Dragon Warrior Monsters (1998), Robopon Sun and Star (1998), Spectrobes (2007), Invizimals (2009), Monster Crown (2021), and Palworld (2024).</p>
+    </main>
+    <hr>
+    <h1 class="pokémon-banner">Pokemon title</h1>
+    <!--Used Google to find out how to make this but, I had the idea and the div and the button I just didn't know how to do the if/else statement or how to connect a prompt with a button-->
+    <div class="pokemon-information">
+    <button id="starter-button">Choose Your Starter Pokémon!</button>
+    <p id="starter-result"></p>
+    </div>
+    <script>
+    document.getElementById("starter-button").addEventListener("click", function() {
+        let choice = prompt("Choose your starter: fire, water, or grass");
+
+        if (choice === "fire") {
+            document.getElementById("starter-result").innerHTML = "🔥 You chose Charmander!";
+        } else if (choice === "water") {
+            document.getElementById("starter-result").innerHTML = "💧 You chose Squirtle!";
+        } else if (choice === "grass") {
+            document.getElementById("starter-result").innerHTML = "🍃 You chose Bulbasaur!";
+        } else {
+            document.getElementById("starter-result").innerHTML = "❓ That's not a valid starter!";
+        }
+    });
+    </script>
+    <hr>
+</body>
+<footer>
+        <p class="pokemon-information">If you ever need more information you can always look at the wikipedia page.</p>
+        <iframe src="https://en.wikipedia.org/wiki/Pokémon" height="700px" width="500px"></iframe>
+        <hr>
+        <a class="link" href="index.html">
+            <h3>Return to Homepage</h3>
+        </a>
+    </footer>
+</html>

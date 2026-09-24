@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" id="minecraft">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="javascript.js" defer></script>
+</head>
+<body class="minecraft-content">
+    <script>
+        alert("Hey! welcome to the Minecraft page! Welcome to the most popular game in all of history! I'm sure you're gonna love this page and learn a lot of Minecraft!")
+        alert("Note: Hover over the text to see it better.")
+    </script>
+    <header>
+        <h1 class="minecraft-banner">The History of Minecraft and its impact of gaming</h1>
+    </header>
+    <main>
+        <img class="minecraft-image" src="https://upload.wikimedia.org/wikipedia/en/e/e7/Steve_%28Minecraft%29.png">
+        <!--I got this information from the wikipedia-->
+        <p class="minecraft-information">Minecraft is a sandbox game developed and published by Mojang Studios. Formally released on 18 November 2011 for personal computers following its initial public alpha release on 17 May 2009, it has been ported to numerous platforms, including mobile devices and various video game consoles.</p>
+        <br>
+        <p class="minecraft-information">Minecraft is the best-selling video game of all time, with over 350 million copies sold (as of 2025) and 140 million monthly active players (as of 2021). It has received critical acclaim, winning several awards and being cited as one of the greatest video games of all time; social media, parodies, adaptations, merchandise, and the annual Minecon conventions have played prominent roles in popularizing the game. It also has been noted as a cultural touchstone for Generation Z, as they grew up playing the game at a young age. The game's speedrunning scene has attracted a significant following. Minecraft has been used in educational environments to teach chemistry, computer-aided design, and computer science. The wider Minecraft franchise includes several spin-off games, such as Minecraft: Story Mode, Minecraft Earth, Minecraft Dungeons, and Minecraft Legends. A live action film adaptation, titled A Minecraft Movie, was released in 2025, and became the second highest-grossing video game film of all time.</p>
+    </main>
+    <hr>
+    <h1 class="minecraft-game">Minecraft</h1>
+    <div class="minecraft-information">
+    <button id="mine-button">⛏️ Mine 10 Blocks</button>
+    <p id="mine-output"></p>
+</div>
+<script>
+    document.getElementById("mine-button").addEventListener("click", function() {
+        let output = "";
+        for (let i = 1; i <= 10; i++) {
+            output += "⛏️ Mined block " + i + "<br>";
+        }
+        document.getElementById("mine-output").innerHTML = output;
+    });
+</script>
+    <hr>
+</body>
+<footer>
+        <p class="minecraft-information">If you ever need more information you can always look at the wikipedia page.</p>
+        <iframe src="https://en.wikipedia.org/wiki/Minecraft" height="700px" width="500px"></iframe>
+        <hr>
+        <a class="link" href="index.html">
+            <h3>Return to Homepage</h3>
+        </a>
+</footer>
+</html>

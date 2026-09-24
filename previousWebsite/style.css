@@ -1,0 +1,311 @@
+.title{
+    text-align:center;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: red;
+    border-color: brown;
+    font-size: larger;
+    font-family:'Lucida Sans Regular';
+    padding: 10px;
+    margin: 15px;
+}
+#homepage, #sonic, #mario, #minecraft{
+    background-image: url("https://t4.ftcdn.net/jpg/03/59/55/79/360_F_359557922_GPydLSSfjdlK4oEGn1ScOsMLFoEDecTl.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size:cover; /* Scales the image to cover the entire background */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+}
+#pokemon{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/024/996/042/small/cute-mouse-playing-surfing-with-friends-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#sonic{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a4f2faf-7d57-48f8-8b4e-ea655774db6b/dcj496h-bb56fd5e-922c-465e-af93-db1f11b57fe7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi83YTRmMmZhZi03ZDU3LTQ4ZjgtOGI0ZS1lYTY1NTc3NGRiNmIvZGNqNDk2aC1iYjU2ZmQ1ZS05MjJjLTQ2NWUtYWY5My1kYjFmMTFiNTdmZTcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.apHG0XvJxi70PI0uD3dXSv6XVjVNcH8Hhb0FnmEzxJ8");
+    
+}
+#mario{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/729/825/small/fantasy-world-game-background-free-vector.jpg");
+}
+#zelda{
+    background-image: url("https://www.creativeuncut.com/gallery-44/art/loztotk-key-art-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#minecraft{
+    background-image: url("https://images.steamusercontent.com/ugc/2310974141604980016/B4EF3A7A2D1772DE26B1A6F51CE33A04FD8BB917/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+}
+.link{
+    font-size: 15px;
+    color: crimson;
+    text-align: left
+}
+.link:hover{
+    color: chocolate;
+}
+p{
+    color: antiquewhite;
+}
+p:hover{
+    background-color: rgb(44, 79, 145);
+}
+img.interactive {
+    height: 300px;
+    transition: height 2s, filter 1s;
+}
+
+img.interactive:active {
+    height: 320px;
+    filter: invert(100%);
+}
+h1{
+    font-size: 30px;
+    font-family:'Gill Sans';
+    text-align: center;
+    color: beige;
+}
+#history{
+    background-color: #0A002B;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.zelda-image{
+    height: 500px;
+}
+.sonic-image{
+    height:500px;
+}
+.pokemon-image{
+    height: 500px;
+}
+.minecraft-image{
+    height: 500px;
+}
+.top-banner{
+  text-align:center;
+    border-style: groove;
+    border-width: 20px;
+    border-radius: 50px;
+    background-color: rgba(136, 0, 255, 0.293);
+    border-color: rgba(77, 42, 165, 0.331);
+    font-size: larger;
+    font-family:Helvetica;
+    padding: 10px;
+    margin: 15px;
+}
+.mario-banner{
+    color: red;
+    background-color: darkred;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    border-width: 15px;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: rgb(199, 86, 86);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:Verdana;
+}
+.mario-content{
+    padding-top: 100px;
+}
+.sonic-banner{
+    background-color: rgb(78, 58, 255);
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    border-radius: 40px;
+    border-width: 20px;
+    border-style:groove;
+    border-color: rgb(2, 0, 145);
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:monospace;
+}
+.zelda-banner{
+    background-color: rgb(0, 190, 180);
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    border-radius: 40px;
+    border-width: 20px;
+    border-style:outset;
+    border-color: rgb(0, 255, 187);
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:arial;
+}
+.pokémon-banner{
+    background-color:#FAD61D;
+    color:#F62D14;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    border-radius: 40px;
+    border-width: 20px;
+    border-style:double;
+    border-color:#e92929;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:arial;
+}
+.sonic-content{
+    padding-top: 100px;
+}
+.zelda-content{
+    padding-top: 100px;
+}
+.pokemon-content{
+    padding-top: 100px;
+}
+.minecraft-content{
+    padding-top: 100px;
+}
+body {
+  margin: 0;
+  padding-top: 80px; 
+}
+.sonic-information{
+    color:rgb(128, 198, 255) ;
+    font-size: 35px;
+    font-family: impact;
+}
+.zelda-information{
+    color:rgb(15, 89, 93);
+    font-size: 45px;
+    font-family: Georgia;
+}
+.zelda-information:hover{
+    background-color: rgb(70, 255, 243);
+}
+.sonic-information:hover{
+    background-color: rgb(19, 39, 77);
+}
+li{
+    color:rgb(128, 198, 255);
+    font-size: 35px;
+    font-family: impact;
+}
+.sonic-game{
+    color:rgb(128, 198, 255) ;
+    background-color: rgb(78, 58, 255);
+    font-size: 35px;
+    font-family: impact;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-color: rgb(2, 0, 145);
+    border-width: 20px;
+    border-radius: 40px;
+    border-style:groove;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li:hover{
+    background-color: rgb(19, 39, 77);
+}
+.mario-game{
+    color: red;
+    background-color: darkred;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: rgb(199, 86, 86);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:Verdana;
+}
+.mario-information{
+    color:rgb(142, 0, 0) ;
+    font-size: 35px;
+    font-family: verdana;
+}
+.mario-information:hover{
+    background-color: crimson;
+}
+.square{
+        border: solid 1px black;
+        height:50px;
+        width:50px;
+        margin:5px;
+        display: inline-block;
+}
+#output{
+    font-size: 20px;
+    font-family: Georgia;
+    color:rgb(15, 89, 93);
+}
+.info{
+    color: rgb(127, 111, 231);
+    font-family: Arial;
+    font-size: 20px;
+}
+.cultural{
+    font-family: Tahoma;
+    font-size: 20px; 
+    color: darkorchid;
+}
+.cultural:hover{
+    background-color: rgb(77, 0, 77);
+}
+.pokemon-information{
+    color:#F62D14;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium'
+}
+.pokemon-information:hover{
+    background-color: #FAD61D;
+}
+.pokemon-number{
+    color:#F62D14;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    border-radius: 40px;
+    border-width: 20px;
+    border-style:double;
+    border-color:#e92929;
+    background-color:#FAD61D;
+}
+.pokemon-image {
+    transition: transform 1s linear;
+}
+.minecraft-banner{
+    background-color:#616161;
+    color:#000000;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    border-radius: 40px;
+    border-width: 20px;
+    border-style:double;
+    border-color:#bd7c52;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:serif;
+}
+.minecraft-information{
+    color:#bebebe;
+    font-size: 40px;
+    font-family: 'serif'
+}
+.minecraft-information:hover{
+    background-color: #000000;
+}

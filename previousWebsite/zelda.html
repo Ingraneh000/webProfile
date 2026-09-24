@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" id="zelda">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="javascript.js" defer></script>
+</head>
+<body class="zelda-content">
+    <script>
+        alert("Hello! Welcome to the Legend of Zelda section where you find Link's history and his series impact!")
+    </script>
+    <header>
+        <h1 class="zelda-banner">The History of The Legend of Zelda and his impact on gaming</h1>
+    </header>
+    <main>
+        <img class="zelda-image" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_400/Microsites/zelda-totk-pmp/link">
+        <!--I got this information from the wikipedia-->
+        <p class="zelda-information">The Legend of Zelda is a video game series created by Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo; some installments and re-releases have been outsourced to Flagship, Grezzo, and Tantalus Media.</p>
+        <br>
+        <p class="zelda-information">Multiple members of the game industry have expressed how Zelda games have impacted them, including Rockstar Games founder and Grand Theft Auto director, Dan Houser, who said that Zelda and Mario games on Nintendo 64 greatly influenced them in developing Grand Theft Auto series, as well in other 3D games in general. Rockstar founder and Grand Theft Auto director Sam Houser also cited the influence of Zelda, describing Grand Theft Auto III as "Zelda meets Goodfellas".</p>
+    </main>
+    <hr>
+    <button onclick="pickGame()">Get a random Legend of Zelda game</button>
+<p id="output"></p>
+<script>
+var words = ["Ocarina of Time", "Majora's Mask", "Twilight Princess", "Breath of the Wild", "Tears of the Kingdom"];
+
+function pickGame() {
+  var randomWord = words[Math.floor(Math.random() * words.length)];
+  document.getElementById("output").textContent = randomWord;
+}
+</script>
+<hr>
+<footer>
+        <p class="zelda-information">If you ever need more information you can always look at the wikipedia page.</p>
+        <iframe src="https://en.wikipedia.org/wiki/The_Legend_of_Zelda" height="700px" width="500px"></iframe>
+        <hr>
+        <a class="link" href="index.html">
+            <h3>Return to Homepage</h3>
+        </a>
+    </footer>
+
+</body>
+</html>
