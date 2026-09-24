@@ -1,0 +1,46 @@
+li {
+    list-style-type: none;
+    float: left;
+    border-right-color:#bbb;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: #C0ACE0;
+}
+li a:hover{
+    background-color: #A1ADE0;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.no_underline{
+    text-decoration: none;
+}
+.to_the_left{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+img{
+    border-style:groove;
+    border-radius: 7px;
+    border-width: 6px;
+    border-color: #E0ADDD;
+}
+p, h1, h3{
+    font-family: 'Franklin Gothic Medium';
+}
+.color{
+    background-color: #e4cfed;
+}
